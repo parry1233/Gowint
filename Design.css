@@ -1,0 +1,437 @@
+/*Design.CSS is written by PerryChung in June 2019*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    overflow-x: hidden;
+    font-family: Verdana;
+    margin: 0;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+div {
+    display: block;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.ViewTop {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    box-sizing: inherit;
+}
+
+.ViewTail {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-sizing: inherit;
+    bottom: 0;
+}
+
+.MenuList {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: 3px;
+    box-sizing: inherit;
+    display: block;
+}
+
+.MenuTitle {
+    font-size: 23px;
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Menu {
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: inherit;
+}
+
+.MenutoRight {
+    vertical-align: middle;
+    float: right;
+}
+
+.head {
+    position: relative;
+    width: 100%;
+}
+
+.bigTitle {
+    font-family: Microsoft JhengHei;
+    font-size: 100px;
+}
+
+.smallTitle {
+    font-size: 40px;
+}
+
+.about {
+    padding: 256px 16px;
+    text-align: left;
+    display: block;
+    box-sizing: inherit;
+}
+
+.aboutTitle {
+    font-size: 40px;
+}
+
+.aboutContent {
+    font-size: 20px;
+}
+
+.partner {
+    padding: 256px 16px;
+    box-sizing: inherit;
+}
+
+.parnter_tableout {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    overflow-x: auto;
+    box-sizing: inherit;
+}
+
+.parnter_tablein {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    box-sizing: inherit;
+}
+
+.table_theme {
+    color: #fff;
+    background-color: #000;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.fa {
+    font-size: 50px;
+}
+
+.cardColumn {
+    float: left;
+    width: 25%;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 2% auto;
+    /*card column內的上方2%至左右auto*/
+    width: 95%;
+    height: 95%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #444;
+    color: white;
+    line-height: 1.5;
+}
+
+.card2 {
+    margin: 2% auto;
+    /*card column內的上方2%至左右auto*/
+    width: 95%;
+    height: 95%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #006696;
+    color: white;
+    line-height: 1.5;
+}
+
+.cardColumn2 {
+    float: left;
+    width: 33.333%;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.card3 {
+    margin: 2% auto;
+    /*card column內的上方2%至左右auto*/
+    width: 95%;
+    height: 95%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #025a31;
+    color: white;
+    line-height: 1.5;
+}
+
+.cardColumn3 {
+    float: left;
+    width: 25%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.card4 {
+    margin: 2% auto;
+    /*card column內的上方2%至左右auto*/
+    width: 95%;
+    height: 95%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fd2c2a;
+    color: white;
+    line-height: 1.5;
+}
+
+.cardColumn4 {
+    float: left;
+    width: 25%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.cardRow {
+    margin: 0 -5px;
+}
+
+.cardRow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.goal {
+    padding: 256px 16px;
+    display: block;
+    box-sizing: inherit;
+    color: #000;
+}
+
+.goalTitle {
+    vertical-align: middle;
+    text-align: left;
+    font-size: 25px;
+}
+
+.productRow {
+    padding: 256px 16px;
+    display: block;
+    box-sizing: inherit;
+    color: #000;
+}
+
+.productRow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    text-align: center;
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+.imageTitle {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+.productImage {
+    width: 95%;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #505050;
+}
+
+.head:hover .overlay {
+    opacity: 1;
+}
+
+.hidetext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 16px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container img {
+    float: left;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+@media (max-width:500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.map {
+    background-color: #f1f1f1;
+    display: block;
+    margin: 0 -5px;
+}
+
+@media screen and (max-width: 600px) {
+    .map {
+        width: 100%;
+    }
+}
+
+
+/* Footer */
+
+.footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background: #000;
+}
+
+.footerList {
+    padding: 8px 16px;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: 3px;
+    box-sizing: inherit;
+    display: block;
+}
+
+.footerTitle {
+    font-size: 13px;
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: left;
+}
+
+.footerOther {
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: right;
+    box-sizing: inherit;
+}
+
+.footertoRight {
+    float: right;
+}
